@@ -1,0 +1,55 @@
+/* header overall */
+.header-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* end header overall */
+/* middle header */
+.search-bar{
+  display: flex;
+  align-items: center;
+}
+.search-button{
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice-search-button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+}
+.search-icon{
+  width: 30px;
+}
+.search-input{
+  height: 35px;
+}
+/* end middle header */
+/* left header */
+
+.youtube-logo{
+  width: 150px;
+}
+/* end left header */
+
+/* right header */
+.right-section-header{
+  display: flex;
+  align-items: center;
+}
+.right-section-header > button{
+  width: 35px;
+}
+.main-profile{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* end right header */
+
