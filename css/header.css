@@ -68,6 +68,29 @@
   background-color: white;
   cursor: pointer;
 }
+/* bell icon has a div around it */
+.right-section-header > div > button{
+  width: 35px;
+  margin-right: 1em;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.notification-circle{
+  position: relative;
+}
+.number-of-notifications{
+  position: absolute;
+  top: -3px;
+  right: 11px;
+  background-color: rgb(196, 0, 0);
+  font-size: 10px;
+  color: white;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  align-content: center;
+}
 .main-profile{
   width: 35px;
   height: 35px;
