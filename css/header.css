@@ -1,17 +1,15 @@
 /* header overall */
-#sticky-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-}
 .header-flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #cccccc;
+  background-color: white;
   height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 /* end header overall */
 /* middle header */
@@ -27,12 +25,14 @@
   align-items: center;
   border: 1px solid #cccccc;
   margin-right: 1em;
+  cursor: pointer;
 }
 .voice-search-button{
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 .search-icon{
   width: 30px;
@@ -40,12 +40,19 @@
 .search-input{
   height: 35px;
   border: 1px solid #cccccc;
+  width: 350px;
 }
 /* end middle header */
 /* left header */
 
 .youtube-logo{
   width: 100px;
+  cursor: pointer;
+}
+.hamburger-menu{
+  width: 25px;
+  margin: 0 26px;
+  cursor: pointer;
 }
 /* end left header */
 
@@ -56,15 +63,18 @@
 }
 .right-section-header > button{
   width: 35px;
-  margin-right: 2em;
+  margin-right: 1em;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 .main-profile{
   width: 35px;
   height: 35px;
   object-fit: cover;
   border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
 }
 /* end right header */
 
