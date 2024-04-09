@@ -1,8 +1,17 @@
 /* header overall */
+#sticky-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
 .header-flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #cccccc;
+  height: 60px;
 }
 /* end header overall */
 /* middle header */
@@ -12,14 +21,16 @@
 }
 .search-button{
   width: 70px;
-  height: 40px;
+  height: 39px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #cccccc;
+  margin-right: 1em;
 }
 .voice-search-button{
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: none;
 }
@@ -28,12 +39,13 @@
 }
 .search-input{
   height: 35px;
+  border: 1px solid #cccccc;
 }
 /* end middle header */
 /* left header */
 
 .youtube-logo{
-  width: 150px;
+  width: 100px;
 }
 /* end left header */
 
@@ -44,6 +56,9 @@
 }
 .right-section-header > button{
   width: 35px;
+  margin-right: 2em;
+  border: none;
+  background-color: white;
 }
 .main-profile{
   width: 35px;
