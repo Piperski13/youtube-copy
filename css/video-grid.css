@@ -26,6 +26,7 @@
 .video-thumbnail{
   width: 100%;
   border-radius: 10px;
+  cursor: pointer;
 }
 .video-description{
   display: flex;
@@ -37,6 +38,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin-right: 0.5em;
+  cursor: pointer;
 }
 .channel-name{
   margin-top: 0.5em;
