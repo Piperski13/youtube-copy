@@ -1,11 +1,27 @@
 .video-grid{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(4,1fr);
   column-gap: 15px;
   row-gap: 15px;
   margin-top: 62px;
   padding: 30px 20px;
   background-color: #f9f9f9;
+}
+/* Responsive queries */
+@media screen and (max-width: 1200px) {
+  .video-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .video-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width: 900px) {
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
 }
 .video-thumbnail{
   width: 100%;
@@ -16,19 +32,23 @@
   align-items: center ;
 }
 .profile-img{
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
   border-radius: 50%;
   margin-right: 0.5em;
 }
 .channel-name{
   margin-top: 0.5em;
+  font-size: 15px;
 }
 .video-title{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+.video-views{
+ font-size: 13px;
 }
 .video-card-top{
   position: relative;

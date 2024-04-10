@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 /* end header overall */
 /* middle header */
@@ -41,6 +42,7 @@
   height: 35px;
   border: 1px solid #cccccc;
   width: 350px;
+  flex-shrink: none;
 }
 /* end middle header */
 /* left header */
